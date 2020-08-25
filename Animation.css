@@ -1,0 +1,25 @@
+#header_section_1 h2{
+    animation:h2_anime 3s ease 0s 1;
+    visibility:visible;
+}
+@keyframes h2_anime{
+    0%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+#header_section_1 #hr_2{
+   animation:hr_anime 3s
+   ease 3s 1; 
+}
+@keyframes hr_anime{
+    0%{
+        margin-top:30%;
+    }
+    100%{
+        margin-top:0%;
+    }
+}
+
